@@ -10,6 +10,8 @@
 # reverse()	    Reverses the order of the list
 # sort()	    Sorts the list
 
+# min(), max(), sum()
+
 
 names = ['Manish', 'Sanjay']
 print(names)
@@ -42,3 +44,20 @@ names.remove('Manish')
 print(names)
 
 print(numbers.count(2))
+
+letters_1 = ['A', 'B', 'C']
+letters_2 = ['D', 'E', 'F']
+letters_3 = [letters_1, letters_2]
+print(letters_3)
+
+letters_4 = ['A', 'B', 'C', 'D', 'E', 'F']
+print(letters_4[3:])
+del letters_4[2:]
+print(letters_4)
+
+nums = [8, 2, 56, 1, 14, 19]
+print(min(nums))
+print(max(nums))
+print(sum(nums))
+nums.sort()
+print(nums)
