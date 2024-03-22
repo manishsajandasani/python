@@ -21,7 +21,6 @@ print(type(hobbies))
 
 student = {'id' : 1, 'name' : 'Manish', 'hobbies' : ['Cricket', 'Football']}
 print(type(student))
-print(type(student))
 
 # There is a concept of constant which is not present in Python but we can create it by showing our intentions. We just create the variable in UPPERCASE
 
